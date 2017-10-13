@@ -1,5 +1,5 @@
 <?php
-$html = file_get_contents('http://finance.detik.com/'); //get the html returned from the following url
+$html = file_get_contents('http://your-url.com/'); //get the html returned from the following url
 
 $detik_doc = new DOMDocument();
 libxml_use_internal_errors(TRUE); //disable libxml errors
